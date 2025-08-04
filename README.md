@@ -77,11 +77,24 @@ To build a robust classification system that accurately detects frauds in highly
 
 ## 📂 Project Structure
 
-📦 credit-card-fraud-detection/
-├── creditcard.csv
-├── fraud_detection.ipynb
-├── README.md
-└── requirements.txt
+credit-card-fraud-detection/
+│
+├── 📄 README.md               # Project overview & details
+├── 📄 fraud_detection.ipynb   # Main Jupyter Notebook (EDA + ML)
+├── 📄 requirements.txt        # List of required Python libraries
+│
+├── 📁 data/                   # Dataset files
+│   └── creditcard.csv         # Original dataset (or link)
+│
+├── 📁 images/                 # Visuals for README
+│   ├── eda_plot.png
+│   └── confusion_matrix.png
+│
+├── 📁 models/                 # Saved trained models (optional)
+│   └── xgb_model.pkl
+│
+└── 📁 reports/                # Any additional reports or outputs
+    └── classification_report.txt
 
 
 ## 📮 Future Improvements
